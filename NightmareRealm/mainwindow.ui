@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>500</width>
-    <height>500</height>
+    <height>550</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,8 +20,8 @@
    <widget class="QPushButton" name="pushRed_1">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>400</x>
+      <y>250</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -47,7 +47,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>200</y>
+      <y>150</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -73,7 +73,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>0</y>
+      <y>250</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -99,7 +99,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>400</y>
+      <y>450</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -125,7 +125,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>200</y>
+      <y>150</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -150,8 +150,8 @@ color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushYellow_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>400</y>
+      <x>400</x>
+      <y>450</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -177,7 +177,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>200</y>
+      <y>250</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -204,7 +204,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>0</y>
+      <y>50</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -231,7 +231,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>300</y>
+      <y>350</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -259,7 +259,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>100</y>
+      <y>150</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -287,7 +287,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>300</y>
+      <y>350</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -315,7 +315,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>300</y>
+      <y>450</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -340,8 +340,8 @@ color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushYellow_1">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>300</y>
+      <x>400</x>
+      <y>350</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -367,7 +367,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>100</y>
+      <y>250</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -393,7 +393,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>100</y>
+      <y>50</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -419,7 +419,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>100</y>
+      <y>150</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -447,7 +447,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>200</y>
+      <y>250</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -474,7 +474,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>400</y>
+      <y>450</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -501,7 +501,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>0</y>
+      <y>50</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -528,7 +528,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>400</y>
+      <y>450</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -555,7 +555,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>100</y>
+      <y>150</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -580,8 +580,8 @@ color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushBlue_2">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>200</y>
+      <x>200</x>
+      <y>350</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -606,8 +606,8 @@ color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushBlue_3">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>0</y>
+      <x>0</x>
+      <y>50</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -633,7 +633,7 @@ color: rgb(0, 0, 0);
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>400</y>
+      <y>50</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -658,8 +658,8 @@ color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushBlue_5">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>300</y>
+      <x>0</x>
+      <y>350</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -674,6 +674,188 @@ color: rgb(0, 0, 0);
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(105, 205, 255);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Red">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 105, 105);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Blue">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(105, 205, 255);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Yellow">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 105);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iron">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 33, 33);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iron_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 33, 33);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iron_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>500</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 33, 33);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iron_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 33, 33);
 color: rgb(0, 0, 0);
 </string>
     </property>

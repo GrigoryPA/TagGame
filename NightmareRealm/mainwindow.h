@@ -28,6 +28,8 @@ private:
     int num_block_w=5;
     int num_block_h=5;
     int size_block=100;
+    int size_label=50;
+    int flag_vin=0;
     QPushButton *sel_button_ui;
 };
 #endif // MAINWINDOW_H
