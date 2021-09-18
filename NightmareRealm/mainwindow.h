@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QPushButton>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,9 +18,13 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+    void on_pushVoid_clicked();
 
 private:
     Ui::MainWindow *ui;
     int matrix[4][4][3];
+    int sel_action=1;
+    int sel_button[2];
+    QPushButton *sel_button_ui;
 };
 #endif // MAINWINDOW_H

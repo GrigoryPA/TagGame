@@ -40,7 +40,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>1</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -66,7 +66,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>2</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -92,7 +92,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>3</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -118,7 +118,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>4</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
@@ -144,7 +144,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>12</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_10">
@@ -170,10 +170,10 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>11</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="Rock_2">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -191,15 +191,16 @@ color: rgb(0, 0, 0);
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 130, 28);
+     <string notr="true">
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(108, 108, 108, 255), stop:0.522472 rgba(71, 71, 71, 255), stop:1 rgba(53, 53, 53, 255));
 color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>10</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="Rock_1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -217,15 +218,16 @@ color: rgb(0, 0, 0);
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 130, 28);
+     <string notr="true">
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(108, 108, 108, 255), stop:0.522472 rgba(71, 71, 71, 255), stop:1 rgba(53, 53, 53, 255));
 color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>9</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="voidButton_4">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -242,16 +244,18 @@ color: rgb(0, 0, 0);
       <bold>false</bold>
      </font>
     </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 130, 28);
-color: rgb(0, 0, 0);
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.585, fx:0.5, fy:0.5, stop:1 rgba(255, 255, 255, 0));
 </string>
     </property>
     <property name="text">
-     <string>15</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="voidButton_3">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -268,16 +272,18 @@ color: rgb(0, 0, 0);
       <bold>false</bold>
      </font>
     </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 130, 28);
-color: rgb(0, 0, 0);
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.585, fx:0.5, fy:0.5, stop:1 rgba(255, 255, 255, 0));
 </string>
     </property>
     <property name="text">
-     <string>14</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="voidButton_2">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -294,13 +300,15 @@ color: rgb(0, 0, 0);
       <bold>false</bold>
      </font>
     </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 130, 28);
-color: rgb(0, 0, 0);
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.585, fx:0.5, fy:0.5, stop:1 rgba(255, 255, 255, 0));
 </string>
     </property>
     <property name="text">
-     <string>13</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
@@ -326,7 +334,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>6</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
@@ -352,7 +360,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>7</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
@@ -378,7 +386,7 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>5</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_8">
@@ -404,7 +412,35 @@ color: rgb(0, 0, 0);
 </string>
     </property>
     <property name="text">
-     <string>8</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="voidButton_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>24</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:1.585, fx:0.5, fy:0.5, stop:1 rgba(255, 255, 255, 0));
+</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
