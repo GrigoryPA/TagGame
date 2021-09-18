@@ -22,9 +22,12 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    int matrix[4][4][3];
+    int matrix[5][5][3];
     int sel_action=1;
     int sel_button[2];
+    int num_block_w=5;
+    int num_block_h=5;
+    int size_block=100;
     QPushButton *sel_button_ui;
 };
 #endif // MAINWINDOW_H

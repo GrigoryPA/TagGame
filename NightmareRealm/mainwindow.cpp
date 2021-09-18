@@ -8,26 +8,32 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->setupUi(this);
     //-1 rock, 0 void, (1,2,3) moveable blocks
-    matrix[0][0][0]=1;matrix[0][1][0]=1;matrix[0][2][0]=1;matrix[0][3][0]=1;
-    matrix[1][0][0]=1;matrix[1][1][0]=1;matrix[1][2][0]=1;matrix[1][3][0]=1;
-    matrix[2][0][0]=-1;matrix[2][1][0]=-1;matrix[2][2][0]=1;matrix[2][3][0]=1;
-    matrix[3][0][0]=0;matrix[3][1][0]=0;matrix[3][2][0]=0;matrix[3][3][0]=0;
-    for(int i=0;i<4;++i)
-        for(int j=0;j<4;++j)
+    matrix[0][0][0]=1;matrix[0][1][0]=-1;matrix[0][2][0]=1;matrix[0][3][0]=-1;matrix[0][4][0]=1;
+    matrix[1][0][0]=1;matrix[1][1][0]=0;matrix[1][2][0]=1;matrix[1][3][0]=0;matrix[1][4][0]=1;
+    matrix[2][0][0]=1;matrix[2][1][0]=-1;matrix[2][2][0]=1;matrix[2][3][0]=-1;matrix[2][4][0]=1;
+    matrix[3][0][0]=1;matrix[3][1][0]=0;matrix[3][2][0]=1;matrix[3][3][0]=0;matrix[3][4][0]=1;
+    matrix[4][0][0]=1;matrix[4][1][0]=-1;matrix[4][2][0]=1;matrix[4][3][0]=-1;matrix[4][4][0]=1;
+    for(int i=0;i<num_block_h;++i)
+        for(int j=0;j<num_block_w;++j)
         {
-            matrix[i][j][1]=100*j;
-            matrix[i][j][2]=100*i;
+            matrix[i][j][1]=size_block*j;
+            matrix[i][j][2]=size_block*i;
         }
-    connect(ui->pushButton_1,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_2,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_3,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_4,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_5,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_6,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_7,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_8,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_9,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
-    connect(ui->pushButton_10,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushBlue_1,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushBlue_2,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushBlue_3,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushBlue_4,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushBlue_5,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushYellow_1,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushYellow_2,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushYellow_3,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushYellow_4,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushYellow_5,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushRed_1,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushRed_2,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushRed_3,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushRed_4,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
+    connect(ui->pushRed_5,SIGNAL(clicked()),this,SLOT(on_pushButton_clicked()));
     connect(ui->voidButton_1,SIGNAL(clicked()),this,SLOT(on_pushVoid_clicked()));
     connect(ui->voidButton_2,SIGNAL(clicked()),this,SLOT(on_pushVoid_clicked()));
     connect(ui->voidButton_3,SIGNAL(clicked()),this,SLOT(on_pushVoid_clicked()));
@@ -45,8 +51,8 @@ void MainWindow::on_pushVoid_clicked()
     {
         QPushButton *button = (QPushButton*)sender();
         int i,j;
-        j=button->x()/100;
-        i=button->y()/100;
+        j=button->x()/size_block;
+        i=button->y()/size_block;
         if(matrix[i][j][0]==0)
         {
             if((i==sel_button[0]&&j==sel_button[1]-1)||(i==sel_button[0]&&j==sel_button[1]+1)||
@@ -71,8 +77,8 @@ void MainWindow::on_pushVoid_clicked()
 void MainWindow::on_pushButton_clicked()
 {
         QPushButton *button = (QPushButton*)sender();
-        int j=button->x()/100;
-        int i=button->y()/100;
+        int j=button->x()/size_block;
+        int i=button->y()/size_block;
         sel_button[0]=i;
         sel_button[1]=j;
         int num=0;
@@ -80,7 +86,7 @@ void MainWindow::on_pushButton_clicked()
         {
             ++num;
         }
-        if(j+1<=3 && matrix[i][j+1][0]==0)
+        if(j+1<=num_block_w-1 && matrix[i][j+1][0]==0)
         {
             ++num;
         }
@@ -88,7 +94,7 @@ void MainWindow::on_pushButton_clicked()
         {
             ++num;
         }
-        if(i+1<=3 && matrix[i+1][j][0]==0)
+        if(i+1<=num_block_h-1 && matrix[i+1][j][0]==0)
         {
             ++num;
         }
